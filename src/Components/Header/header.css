@@ -1,0 +1,24 @@
+.header-main{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.link-tags{
+    margin: 40px 0 0 400px;
+    font-size: 20px;
+}
+.link-tags a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.link-tags button{
+    margin-left: 30px;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    color: white;
+
+}

@@ -1,0 +1,43 @@
+.main-container{
+    display: flex;
+    border-top: 1px solid gray;
+    margin: 10px;
+}
+.main-from-component{
+    margin: 10px 0 0 200px;
+    width: 30%;
+}
+.form-to-component{
+    background-color: lightslategray;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-to-component button{
+    background-color: tomato;
+    width: 70%;
+    height: 30px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-to-component input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.form-to-component p{
+    text-align: start;
+    margin-left: 35px;
+}
+.map-component{
+    width: 60%;
+    margin-top: 30px;
+}
+.map-component img{
+    width: 70%;
+    border-radius: 10px;
+}

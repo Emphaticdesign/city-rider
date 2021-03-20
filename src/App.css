@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  background-image: url(https://lh3.googleusercontent.com/cLOvQnEdwjeGY-NMHYSyjvvaJCX0lh2kNzhNv5_5Gv9xtfHDSVWD2VUP0nCrCqxE9r75=s132);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  width: 100%;
+  height: 650px;
 }
 
 .App-logo {

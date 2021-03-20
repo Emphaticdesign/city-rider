@@ -1,0 +1,13 @@
+.vehicle-main{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.vehicle-main img{
+    width: 150px;
+}
