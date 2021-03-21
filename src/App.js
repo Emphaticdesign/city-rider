@@ -11,17 +11,22 @@ import Destination from './Components/Destination/Destination';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import NotFound from './Components/NotFound/NotFound';
+import { createContext, useState } from 'react';
+
+export const userContext = createContext();
 
 
 function App() {
+ 
   return (
-    <div className="App">
+    <div>
       <Router>
         <Header></Header>
         <Switch>
           <Route path="/home">
             <Home></Home>
           </Route>
+          
           <Route path="/destination">
             <Destination></Destination>
           </Route>
@@ -37,7 +42,7 @@ function App() {
           <Route path="/vehicle/:vehicleId">
             <Destination></Destination>
           </Route>
-          <Route path="*">
+         <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
